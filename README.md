@@ -20,11 +20,13 @@ El proyecto fue desarrollado a partir de un caso contextualizado, abordando prob
 
 ```plaintext
 📁 src/
-├── app/         # Clase principal con el método main
-├── model/       # Clases de dominio (Persona, Cliente, Empleado, Producto, etc.)
+├── app/         # Clase principal con el método main.
 ├── data/        # Clases para la carga y lectura de archivos .txt
-├── utils/       # Utilidades y validaciones
-└── interfaces/  # Interfaces implementadas por las clases
+├── excepciones/ # Manejo de excepciones personalizadas.
+├── interfaces/  # Interfaces implementadas por las clases.
+├── model/       # Clases de dominio (Persona, Cliente, Proveedor, Servicios, etc.)
+├── ui/          # Vistas de las pantallas del sistema.
+└── utils/       # 
 ```
 
 ---
