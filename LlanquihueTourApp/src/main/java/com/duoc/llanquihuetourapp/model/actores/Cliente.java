@@ -13,12 +13,31 @@ public class Cliente extends Persona {
 	public Cliente(String nombre, String apellidos, String email, String telefono, String direccion, Rut rut, String tarjetaCredito, String nacionalidad) {
 		super(nombre, apellidos, email, telefono, direccion, rut);
 		this.tarjetaCredito = tarjetaCredito;
-		this.nacionalidad = nacionalidad;
+		this.nacionalidad   = nacionalidad;
+	}
+
+	/**
+	 * Crea objeto Cliente desde String array.
+	 * @param cols[0]	nombre
+	 * @param cols[1]	apellidos
+	 * @param cols[2]	e-mail
+	 * @param cols[3]	telefono
+	 * @param cols[4]	direccion
+	 * @param cols[5]	rut + dv
+	 * @param cols[6]	tarjeta-credito
+	 * @param cols[7]	nacionalidad
+	 * @throws Exception
+	 */
+	public Cliente(String[] cols) throws Exception {
+		super( cols[0], cols[1], cols[2], cols[3], cols[4], new Rut(cols[5]));
+		this.tarjetaCredito = cols[6];
+		this.nacionalidad   = cols[7];
 	}
 
 	public Cliente() {
 		super();
 		this.tarjetaCredito = "";
+		this.nacionalidad   = "";
 	}
 
 	public String getTarjetaCredito() {

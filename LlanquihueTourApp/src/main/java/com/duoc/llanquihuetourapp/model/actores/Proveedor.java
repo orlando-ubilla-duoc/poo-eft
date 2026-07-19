@@ -34,6 +34,24 @@ public class Proveedor extends Persona {
 		this.giroComercial = "";
 	}
 
+	/**
+	 * Crea objeto Cliente desde String array.
+	 * @param cols[0]	nombre
+	 * @param cols[1]	apellidos
+	 * @param cols[2]	e-mail
+	 * @param cols[3]	telefono
+	 * @param cols[4]	direccion
+	 * @param cols[5]	rut + dv
+	 * @param cols[6]	nombre-hotel
+	 * @param cols[7]	giro-comercial
+	 * @throws Exception
+	 */
+	public Proveedor(String[] cols) throws Exception {
+		super( cols[0], cols[1], cols[2], cols[3], cols[4], new Rut(cols[5]));
+		this.nombreHotel   = cols[6];
+		this.giroComercial = cols[7];
+	}
+
 	public String getNombreHotel() {
 		return nombreHotel;
 	}

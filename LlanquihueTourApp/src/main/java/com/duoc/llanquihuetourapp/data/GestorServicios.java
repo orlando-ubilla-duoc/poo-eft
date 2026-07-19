@@ -3,13 +3,13 @@ package com.duoc.llanquihuetourapp.data;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.duoc.llanquihuetourapp.model.ExcursionCultural;
-import com.duoc.llanquihuetourapp.model.PaseoLacustre;
-import com.duoc.llanquihuetourapp.model.RutaGastronomica;
-import com.duoc.llanquihuetourapp.model.ServicioTuristico;
+//import com.duoc.llanquihuetourapp.model.ExcursionCultural;
+//import com.duoc.llanquihuetourapp.model.PaseoLacustre;
+//import com.duoc.llanquihuetourapp.model.RutaGastronomica;
+//import com.duoc.llanquihuetourapp.model.ServicioTuristico;
 
 public class GestorServicios {
-
+/*
 	private List<ServicioTuristico> servicios;
 
 	public GestorServicios() {
@@ -57,5 +57,5 @@ public class GestorServicios {
 		}
 
 	}
-
+*/
 }

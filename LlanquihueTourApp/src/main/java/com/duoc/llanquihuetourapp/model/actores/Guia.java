@@ -23,6 +23,24 @@ public class Guia extends Persona {
 		this.experiencia  = "";
 	}
 
+	/**
+	 * Crea objeto Cliente desde String array.
+	 * @param cols[0]	nombre
+	 * @param cols[1]	apellidos
+	 * @param cols[2]	e-mail
+	 * @param cols[3]	telefono
+	 * @param cols[4]	direccion
+	 * @param cols[5]	rut + dv
+	 * @param cols[6]	nombre-agencia
+	 * @param cols[7]	...
+	 * @throws Exception
+	 */
+	public Guia(String[] cols) throws Exception {
+		super( cols[0], cols[1], cols[2], cols[3], cols[4], new Rut(cols[5]));
+		this.nombreAgencia = cols[6];
+		this.experiencia   = cols[7];
+	}
+
 	public String getNombreAgencia() {
 		return nombreAgencia;
 	}

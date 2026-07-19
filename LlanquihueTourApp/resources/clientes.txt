@@ -1,0 +1,6 @@
+Isla Huar;Calbuco;35990
+Lago Todos los Santos;Puerto Varas;50990
+Ruta Gastronómica;Dalcahue;38000
+Ballenas en Puñihuil;Ancud;58000
+Isla Quinchao;Achao;42000
+Museos y Costanera;Puerto Montt;25990

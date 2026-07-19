@@ -2,10 +2,10 @@ package com.duoc.llanquihuetourapp.data;
 
 import java.util.ArrayList;
 
-import com.duoc.llanquihuetourapp.model.ColaboradorExterno;
-import com.duoc.llanquihuetourapp.model.GuiaTuristico;
-import com.duoc.llanquihuetourapp.model.Registrable;
-import com.duoc.llanquihuetourapp.model.Vehiculo;
+//import com.duoc.llanquihuetourapp.model.ColaboradorExterno;
+//import com.duoc.llanquihuetourapp.model.GuiaTuristico;
+//import com.duoc.llanquihuetourapp.model.Registrable;
+//import com.duoc.llanquihuetourapp.model.Vehiculo;
 
 /**
  * Clase que gestiona el listado de entidades de forma polimorfica. Las clases deben implementar la interfaz Registrable.
@@ -13,7 +13,7 @@ import com.duoc.llanquihuetourapp.model.Vehiculo;
  * @since	Sumativa-3
  */
 public class GestorEntidades {
-
+/*
 	private ArrayList<Registrable> entidades;
 
 	public GestorEntidades() {
@@ -28,10 +28,9 @@ public class GestorEntidades {
 		return this.entidades;
 	}
 
-	/**
-	 * Devuelve una cadena de texto con el resumen de todas las clases gestionadas.
-	 * @return String Resumen de entidades
-	 */
+	
+	// * Devuelve una cadena de texto con el resumen de todas las clases gestionadas.
+	// * @return String Resumen de entidades
 	public String getResumenEntidades() {
 		StringBuilder sb = new StringBuilder();
 		for( Registrable entidad : this.entidades ){
@@ -49,4 +48,5 @@ public class GestorEntidades {
 		}
 		return sb.toString();
 	}
+*/
 }
