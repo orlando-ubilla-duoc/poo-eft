@@ -40,7 +40,7 @@ Desde la linea de comandos, sigue los siguientes pasos:
     ```bash
         git clone git@github.com:orlando-ubilla-duoc/poo-eft.git
     ```
-2. ingresar al directorio correspondiente al paquete `ui`:
+2. ingresar al directorio correspondiente al paquete `app`:
 
     ```bash
         cd LlanquihueTourApp/src/main/java/com/duoc/llanquihuetourapp/app/
