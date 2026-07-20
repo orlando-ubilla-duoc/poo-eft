@@ -17,7 +17,7 @@ public class Main {
 
 		// Inicia programa.
 		SwingUtilities.invokeLater(() -> {
-			VistaPrincipal EvaluacionFinalTransversal = new VistaPrincipal( "Llanquihue-Tour App : EFT");
+			VistaPrincipal EvaluacionFinalTransversal = new VistaPrincipal( "Llanquihue-Tour App : EFT", gestorDatos);
 		});
 	}
 

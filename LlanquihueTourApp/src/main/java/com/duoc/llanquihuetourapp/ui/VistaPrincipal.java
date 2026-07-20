@@ -1,7 +1,10 @@
 package com.duoc.llanquihuetourapp.ui;
 
+import java.awt.Dimension;
 import java.awt.Font;
 import java.awt.GridLayout;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 import javax.swing.BorderFactory;
 import javax.swing.ImageIcon;
@@ -10,14 +13,19 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 
+import com.duoc.llanquihuetourapp.data.GestorDatos;
+
 public class VistaPrincipal {
 
 	JFrame ventana;
+	GestorDatos gestorDatos;
+
 	// private GestorEntidades gestorEntidades;
-	public VistaPrincipal(String tituloVentana)
+	public VistaPrincipal(String tituloVentana, GestorDatos gestor)
 	{
-		this.ventana = new JFrame(tituloVentana);
-		this.ventana.setSize(640,480);
+		this.gestorDatos = gestor;
+		this.ventana     = new JFrame(tituloVentana);
+		this.ventana.setSize(800,480);
 		this.ventana.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // cerrar app
 		this.ventana.setLocationRelativeTo(null); // centrar
 		this.ventana.setLayout(new GridLayout( 1, 2, 0, 0));
@@ -37,8 +45,10 @@ public class VistaPrincipal {
 
 		JPanel panelLogo     = new JPanel();
 		panelLogo.setLayout(new GridLayout( 1, 1, 5, 5));
-		ImageIcon imagenLogo = new ImageIcon("../../../../../../../resources/");
+		ImageIcon imagenLogo = new ImageIcon("../../../../../../../resources/logo_llanquihue_tour.png");
 		JLabel labelLogo     = new JLabel(imagenLogo);
+		labelLogo.setSize(new Dimension(160, 160));
+		labelLogo.setMaximumSize(new Dimension(160, 160));
 		panelLogo.add(labelLogo);
 
 		// crear botones para el menu
@@ -49,7 +59,34 @@ public class VistaPrincipal {
 		JButton boton3 = new JButton("3. Salir");
 		boton3.setFont(new Font("Arial", Font.PLAIN, 20));
 
-				// Agrega elementos al menu
+		boton1.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent e){
+				// Oculta ventana principal
+				ventana.setVisible(false);
+				// llama ventana hijo, con formulario
+				VistaIngreso ventanaFormularioIngreso = new VistaIngreso( ventana, getGestor(), tituloPadre+" - Registrar datos");
+			}
+		});
+
+		boton2.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent e){
+				// Oculta ventana principal
+				ventana.setVisible(false);
+				// llama ventana hijo, con listado de datos
+				VistaResumen ventanaResumen = new VistaResumen( ventana, getGestor(), tituloPadre+" - Visualizar informacion");
+			}
+		});
+
+		boton3.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent e){
+				System.exit(0);
+			}
+		});
+
+		// Agrega elementos al menu
 		panelMenu.add(lblDescripcion);
 		panelMenu.add(boton1);
 		panelMenu.add(boton2);
@@ -58,6 +95,10 @@ public class VistaPrincipal {
 		//ventana.add(panelMenu, BorderLayout.CENTER);
 		ventana.add(panelLogo);
 		ventana.add(panelMenu);
+	}
+
+	public GestorDatos getGestor(){
+		return this.gestorDatos;
 	}
 
 }

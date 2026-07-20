@@ -69,9 +69,9 @@ public class VistaMenu {
 			@Override
 			public void actionPerformed(ActionEvent e){
 				// Oculta ventana principal
-                ventana.setVisible(false);
+				ventana.setVisible(false);
 				// llama ventana hijo, con formulario
-				VistaIngreso ventanaFormularioIngreso = new VistaIngreso( ventana, getGestor(), tituloPadre+" - Registrar datos");
+				//VistaIngreso ventanaFormularioIngreso = new VistaIngreso( ventana, getGestor(), tituloPadre+" - Registrar datos");
 			}
 		});
 
@@ -81,7 +81,7 @@ public class VistaMenu {
 				// Oculta ventana principal
 				ventana.setVisible(false);
 				// llama ventana hijo, con listado de datos
-				VistaResumen ventanaResumen = new VistaResumen( ventana, getGestor(), tituloPadre+" - Resumen de datos");
+				//VistaResumen ventanaResumen = new VistaResumen( ventana, getGestor(), tituloPadre+" - Resumen de datos");
 			}
 		});
 

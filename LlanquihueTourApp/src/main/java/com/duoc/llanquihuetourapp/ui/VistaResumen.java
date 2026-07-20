@@ -9,7 +9,7 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.JTextArea;
 
-import com.duoc.llanquihuetourapp.data.GestorEntidades;
+import com.duoc.llanquihuetourapp.data.GestorDatos;
 
 /**
  * Clase que representa la ventana de resumen de datos, mostrando la información de todas las entidades registradas.
@@ -21,13 +21,13 @@ public class VistaResumen {
 	private JFrame ventana;
 	private JFrame framePadre;
 	private JTextArea areaSalida;
-	private GestorEntidades gestorEntidades;
+	private GestorDatos gestorDatos;
 
-	public VistaResumen( JFrame padre, GestorEntidades gestor, String titulo ){
+	public VistaResumen( JFrame padre, GestorDatos gestor, String titulo ){
 		
-		this.framePadre = padre;
-		this.gestorEntidades = gestor;
-		this.ventana = new JFrame(titulo);
+		this.framePadre  = padre;
+		this.gestorDatos = gestor;
+		this.ventana     = new JFrame(titulo);
 		this.ventana.setSize(640,480);
 		this.ventana.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 		this.ventana.setLocationRelativeTo(null);
@@ -75,7 +75,7 @@ public class VistaResumen {
 	}
 
 	private void mostrarInformacion(){
-		String salida = gestorEntidades.getResumenEntidades();
+		String salida = "";//gestorDatos.getResumenEntidades();
 		if( salida.isEmpty() ){
 			this.areaSalida.setText("-- No hay entidades registradas. --");
 		} else {

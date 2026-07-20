@@ -7,6 +7,7 @@ package com.duoc.llanquihuetourapp.model.actores;
  * @since	EFT
  */
 public abstract class Persona {
+	private int id;
 	private String nombre;
 	private String apellidos;
 	private String email;
@@ -24,6 +25,7 @@ public abstract class Persona {
 	 * @param rut El RUT de la persona.
 	 */
 	public Persona(String nombre, String apellidos, String email, String telefono, String direccion, Rut rut) {
+		this.id        = 0;
 		this.nombre    = nombre;
 		this.apellidos = apellidos;
 		this.email     = email;
@@ -40,6 +42,10 @@ public abstract class Persona {
 		this.direccion = "";
 		this.rut       = new Rut();
 	}
+
+	public int getId() { return this.id;}
+
+	public void setId(int rowId) { this.id = rowId;}
 
 	public String getNombre() { return nombre;}
 

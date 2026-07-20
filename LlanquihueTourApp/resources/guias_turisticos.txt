@@ -1,6 +1,10 @@
-Isla Huar;Calbuco;35990
-Lago Todos los Santos;Puerto Varas;50990
-Ruta Gastronómica;Dalcahue;38000
-Ballenas en Puñihuil;Ancud;58000
-Isla Quinchao;Achao;42000
-Museos y Costanera;Puerto Montt;25990
+Camila;Oyarzún;coyarzun@chiloeancestral.cl;+56955667788;Blanco Encalada 52, Castro;17894123-2;Pucón Volcanes & Termas Limitada;15;
+Sebastián;Andrade;sandrade@pichilemusurf.cl;+56944556677;Av. Costanera 450, Pichilemu;16753951-3;Fiordos de Magallanes Cruceros S.A.;16;
+Javiera;Pinto;jpinto@vallemariana.cl;+56933445566;Gabriela Mistral 310, Vicuña;18462879-1;Araucanía Ancestral Ecoturismo SpA;12;
+Gonzalo;Muñoz;gmunoz.trekking@gmail.com;+56922110099;O'Higgins 620, Puerto Williams;15321654-1;Ríos del Biobío Rafting EIRL;11;
+Macarena;Silva;msilva@lagorancoexpeditions.cl;+56988990011;Viola Christensen 14, Lago Ranco;19147258-6;Carretera Austral Overland SpA;9;
+Álvaro;Cárdenas;acardenas@torresdelpaine.cl;+56911223344;Yungay 412, Puerto Natales;14632789-3;Chaitén Indómito Viajes Limitada;12;
+Natalia;Vergara;nvergara@saltosdellaja.cl;+56977665544;Ruta 5 Sur Km 480, Los Ángeles;18951753-K;Llanquihue Kayak & Outdoor SpA;20;
+Rodrigo;Sanhueza;rsanhueza@chaitenoutdoor.cl;+56966778899;Corcovado 25, Chaitén;16258147-3;Huilo Huilo Aventuras S.A.;17;
+Antonia;Morales;amorales.turismorural@yahoo.cl;+56999001122;Camino Real s/n, Chimbarongo;17456123-0;Aysén Profundo Expediciones EIRL;14;
+Diego;Paredes;dparedes@huilohuiloactive.cl;+56944335522;Ruta CH-203 Km 55, Neltume;15987654-3;Patagonia Salvaje Trekking SpA;10;

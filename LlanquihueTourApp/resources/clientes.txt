@@ -1,6 +1,10 @@
-Isla Huar;Calbuco;35990
-Lago Todos los Santos;Puerto Varas;50990
-Ruta Gastronómica;Dalcahue;38000
-Ballenas en Puñihuil;Ancud;58000
-Isla Quinchao;Achao;42000
-Museos y Costanera;Puerto Montt;25990
+Nicolás;Balmaceda;nbalmaceda@atacamaexpeditions.cl;+56922334455;Caracoles 340, San Pedro de Atacama;15344219-3;0001234587;Chilena;
+Valentina;Rojas;vale.rojas@valparaisowalks.cl;+56966554433;Pasaje Gálvez 11, Cerro Concepción, Valparaíso;17655432-0;000456899871;Chilena;
+Felipe;Maturana;fmaturana@glaciarescolgantes.cl;+56988776655;Av. Simpson 320, Coyhaique;16112894-5;00010356498;Chilena;
+Constanza;Fuentes;cfuentes.turismo@gmail.com;+56944332211;1 Oriente 1245, Talca;18443112-2;000497984699;Chilena;
+Ignacio;Astudillo;iastudillo@rapanuiexperience.cl;+56955443322;Atamu Tekena s/n, Isla de Pascua;16485932-0;00023800588;Chilena;
+Francisca;Toledo;fran.toledo@pucoroadventures.cl;+56911447700;Av. Bernardo O'Higgins 425, Pucón;18234551-2;0012689089;Chilena;
+Matías;Zúñiga;mzuniga@fjordsofpatagonia.cl;+56977889900;Eberhard 560, Puerto Natales;14992554-6;000169898987;Chilena;
+Daniela;Henríquez;dhenriquez@altiplanotours.cl;+56933221100;Baquedano 930, Iquique;19122334-9;0000456749465;Chilena;
+Cristóbal;Vera;cvera@Robinsoncrusoetravel.cl;+56999887744;El Palillo s/n, San Juan Bautista;15776443-8;000115446554;Chilena;
+Sofía;Donoso;sdonoso.guias@yahoo.cl;+56955112233;Camino Internacional Km 12, Curarrehue;17334887-8;0036969985;Chilena;

@@ -1,7 +1,10 @@
-Turismo Antares Ltda; contacto@antarespatagonia.cl; +56612241511;76123456-0; Servicios de transporte y excursiones de turismo; Tours
-Cabañas y Lodge Reloncaví; reservas@lodgereloncavi.cl; +56652334455;77987654-3; Servicios de alojamiento en hoteles y cabañas; Alojamiento
-Navegación Skorpios S.A.; info@skorpios.cl; +56224771900;96555440-8; Transporte marítimo de pasajeros en cruceros; Cruceros
-Arriendo de Autos Austral Car; rent@australcar.cl; +56977778899;76444333-0; Alquiler de vehículos automotores sin chofer; Arriendo autos
-Aventuras Huilo Huilo; reservas@huilohuilo.com; +56228873600;76000111-2; Hotelería, parques recreativos y ecoturismo; Entradas
-Chiloé Ecoturismo SpA; contacto@chiloeecoturs.cl; +56999112233;77222888-0; Agencias de viajes y guiado turístico; Excursiones
-Termas de Puyehue Wellness & Spa Resort; reservas@puyehue.cl; +56642331500;81333222-1; Servicios de hoteles, restaurantes y complejos termales; Alojamiento
+Mateo;Muñoz;mmunoz.guias@gmail.com;+56944332211;Avenida Alemania 0450, Temuco;18445996-5;EcoLodge Andino;Turismo Aventura;
+Valentina;Silva;vsilva.tours@outlook.com;+56966778899;Calle O'Higgins 320, Pucón;16223774-8;Hotel Villarrica;Agencia de Viajes;
+Diego;Araya;daraya.trek@yahoo.cl;+56933445566;Pasaje Los Coihues 15, Puerto Varas;19112883-4;Hostal Del Lago;Guiado Turistico;
+Catalina;Rojas;crojas.viajes@gmail.com;+56988776655;Camino al Volcán Km 4, San José de Maipo;15774112-8;Refugio Cordillera;Hoteleria y Turismo;
+Tomás;Vergara;tvergara.experiencia@live.cl;+56922334455;Prat 720, Puerto Natales;20334556-9;Patagonia Explorers;Operador Turistico;
+Isidora;Castro;icastro.nature@gmail.com;+56977665544;Vicuña Mackenna 88, San Pedro de Atacama;17889443-9;Desert Oasis;Servicios Hoteleros;
+Benjamín;Sanhueza;bsanhueza.guia@yahoo.com;+56955443322;Baquedano 412, Coyhaique;16556221-6;Hotel Austral;Excursiones Guiadas;
+Florencia;Pardo;fpardo.chile@outlook.cl;+56999887766;Chorrillos 560, Castro;18993112-3;Palafito Chiloe;Alojamiento Turistico;
+Lucas;Fuentes;lfuentes.trekking@gmail.com;+56944556677;Camino Las Termas S/N, Chillán;19443552-5;Termas Resort;Turismo Termal;
+Antonia;Mendoza;amendoza.tur@live.com;+56911223344;Avenida Costanera 1020, Valdivia;15332667-3;Hotel Rio Cruces;Servicios Turisticos;
