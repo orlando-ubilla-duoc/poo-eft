@@ -41,7 +41,6 @@ public class VistaIngreso {
 	private JPanel panelFormulario;
 	private JComboBox<String> tipoEntidad;
 	private GestorDatos gestorDatos;
-	// default fields
 	private JTextField txtNombre;
 	private JTextField txtApellido;
 	private JTextField txtEmail;
@@ -219,38 +218,31 @@ public class VistaIngreso {
 	{
 		JLabel lblNombre = new JLabel("Nombre:");
 		lblNombre.setFont(new Font("Arial", Font.PLAIN, 18));
-		//lblNombre.setSize( 100, 40);
-
 		this.txtNombre = new JTextField();
 		this.txtNombre.setFont(new Font("Monospaced", Font.PLAIN, 16));
 
 		JLabel lblApellido = new JLabel("Apellido:");
 		lblApellido.setFont(new Font("Arial", Font.PLAIN, 18));
-		//lblApellido.setSize( 60, 60);
 		this.txtApellido = new JTextField();
 		this.txtApellido.setFont(new Font("Monospaced", Font.PLAIN, 16));
 
 		JLabel lblTelefono = new JLabel("Teléfono:");
 		lblTelefono.setFont(new Font("Arial", Font.PLAIN, 18));
-		//lblTelefono.setSize( 60, 60);
 		this.txtTelefono = new JTextField();
 		this.txtTelefono.setFont(new Font("Monospaced", Font.PLAIN, 16));
 
 		JLabel lblEmail = new JLabel("E-Mail:");
 		lblEmail.setFont(new Font("Arial", Font.PLAIN, 18));
-		//lblEmail.setSize( 60, 60);
 		this.txtEmail = new JTextField();
 		this.txtEmail.setFont(new Font("Monospaced", Font.PLAIN, 16));
 
 		JLabel lblDireccion = new JLabel("Dirección:");
 		lblDireccion.setFont(new Font("Arial", Font.PLAIN, 18));
-		//lblDireccion.setSize( 60, 60);
 		this.txtDireccion = new JTextField();
 		this.txtDireccion.setFont(new Font("Monospaced", Font.PLAIN, 16));
 
 		JLabel lblRut = new JLabel("Rut (ej: 10111000-1):");
 		lblRut.setFont(new Font("Arial", Font.PLAIN, 18));
-		//lblRut.setSize( 60, 60);
 		this.txtRut = new JTextField();
 		this.txtRut.setFont(new Font("Monospaced", Font.PLAIN, 16));
 
@@ -303,7 +295,6 @@ public class VistaIngreso {
 			if( registro instanceof Guia ){
 				// Castea a la clase que se necesita
 				Guia guia = (Guia) registro;
-				// String[] columns = {"ID", "Nombre", "Rut", "E-mail", "Fono"};
 				modelo.addRow(new Object[]{
 					guia.getId(),
 					guia.getNombre()+" "+guia.getApellidos(),
@@ -337,7 +328,6 @@ public class VistaIngreso {
 			if( registro instanceof Cliente ){
 				// Castea a la clase que se necesita
 				Cliente cliente = (Cliente) registro;
-				// String[] columns = {"ID", "Nombre", "Rut", "E-mail", "Fono"};
 				modelo.addRow(new Object[]{
 					cliente.getId(),
 					cliente.getNombre()+" "+cliente.getApellidos(),
@@ -371,7 +361,6 @@ public class VistaIngreso {
 			if( registro instanceof Proveedor ){
 				// Castea a la clase que se necesita
 				Proveedor proveedor = (Proveedor) registro;
-				// String[] columns = {"ID", "Nombre", "Rut", "E-mail", "Fono"};
 				modelo.addRow(new Object[]{
 					proveedor.getId(),
 					proveedor.getNombre()+" "+proveedor.getApellidos(),

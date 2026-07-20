@@ -1,7 +1,5 @@
 package com.duoc.llanquihuetourapp.model.negocio;
 
-import com.duoc.llanquihuetourapp.model.actores.Guia;
-
 /**
  * Clase abstracta, Representa un servicio turístico que puede ser ofrecido por un guía de turismo.
  * Esta clase sirve como base para otros tipos específicos de servicios turísticos.
@@ -10,13 +8,13 @@ import com.duoc.llanquihuetourapp.model.actores.Guia;
  */
 public abstract class ServicioTuristico {
 
-	private Guia   guiaTurismo;
+	private String rutGuiaTurismo;
 	private int    precio;
 	private String nombreServicio;
 
-	public ServicioTuristico(String nombre, Guia guiaTurismo, int precio) {
+	public ServicioTuristico(String nombre, String rutGuia, int precio) {
 		this.nombreServicio = nombre;
-		this.guiaTurismo    = guiaTurismo;
+		this.rutGuiaTurismo = rutGuia;
 		this.precio         = precio;
 	}
 
@@ -28,12 +26,12 @@ public abstract class ServicioTuristico {
 		this.nombreServicio = tituloServicio;
 	}
 
-	public Guia getGuiaTurismo() {
-		return this.guiaTurismo;
+	public String getGuiaTurismo() {
+		return this.rutGuiaTurismo;
 	}
 	
-	public void setGuiaTurismo(Guia guiaTurismo) {
-		this.guiaTurismo = guiaTurismo;
+	public void setGuiaTurismo(String guia) {
+		this.rutGuiaTurismo = guia;
 	}
 
 	public int getPrecio() {

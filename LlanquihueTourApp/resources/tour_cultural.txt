@@ -1,0 +1,6 @@
+Ruta del Salitre y Humberstone;12.876.432-5;45000;Oficina Salitrera Humberstone;
+Ruta de las Iglesias de Chiloé;15.342.789-K;35000;Iglesia de Achao y Castro;
+Caminata Histórica y Ascensores;18.943.210-2;25000;Casco Histórico de Valparaíso;
+Circuito de los Fuertes Coloniales;16.765.432-1;40000;Sistema de Fuertes de Niebla;
+Tour de Arqueología Ancestral;14.321.098-7;55000;Pucará de Lasana;
+Ruta del Patrimonio Minero;10.876.543-K;75000;Ex-Campamento Minero Sewell;

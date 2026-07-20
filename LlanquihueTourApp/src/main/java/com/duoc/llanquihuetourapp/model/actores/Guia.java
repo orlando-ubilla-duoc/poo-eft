@@ -24,7 +24,7 @@ public class Guia extends Persona {
 	}
 
 	/**
-	 * Crea objeto Cliente desde String array.
+	 * Crea objeto Guia desde String array.
 	 * @param cols[0]	nombre
 	 * @param cols[1]	apellidos
 	 * @param cols[2]	e-mail

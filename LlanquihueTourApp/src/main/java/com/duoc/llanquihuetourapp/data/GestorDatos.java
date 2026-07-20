@@ -41,6 +41,11 @@ public class GestorDatos {
 		cargaDatosTxt( pathProveedoresTxt, PROVEEDOR);
 	}
 
+	/**
+	 * Lee archivo TXT determinado por el tipo de registro que se desea leer.
+	 * @param fileName
+	 * @param tipoRegistro
+	 */
 	private void cargaDatosTxt(String fileName, int tipoRegistro){
 		try( BufferedReader reader = new BufferedReader(new FileReader(fileName)) ){
 			String linea;

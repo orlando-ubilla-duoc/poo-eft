@@ -14,16 +14,19 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 
 import com.duoc.llanquihuetourapp.data.GestorDatos;
+import com.duoc.llanquihuetourapp.data.GestorServicios;
 
 public class VistaPrincipal {
 
 	JFrame ventana;
 	GestorDatos gestorDatos;
+	GestorServicios gestorServ;
 
 	// private GestorEntidades gestorEntidades;
-	public VistaPrincipal(String tituloVentana, GestorDatos gestor)
+	public VistaPrincipal(String tituloVentana, GestorDatos gestor1, GestorServicios gestor2)
 	{
-		this.gestorDatos = gestor;
+		this.gestorDatos = gestor1;
+		this.gestorServ  = gestor2;
 		this.ventana     = new JFrame(tituloVentana);
 		this.ventana.setSize(800,480);
 		this.ventana.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // cerrar app
@@ -54,7 +57,7 @@ public class VistaPrincipal {
 		// crear botones para el menu
 		JButton boton1 = new JButton("1. Registrar Datos");
 		boton1.setFont(new Font("Arial", Font.PLAIN, 20));
-		JButton boton2 = new JButton("2. Ver datos guardados");
+		JButton boton2 = new JButton("2. Gestionar");
 		boton2.setFont(new Font("Arial", Font.PLAIN, 20));
 		JButton boton3 = new JButton("3. Salir");
 		boton3.setFont(new Font("Arial", Font.PLAIN, 20));
@@ -65,7 +68,7 @@ public class VistaPrincipal {
 				// Oculta ventana principal
 				ventana.setVisible(false);
 				// llama ventana hijo, con formulario
-				VistaIngreso ventanaFormularioIngreso = new VistaIngreso( ventana, getGestor(), tituloPadre+" - Registrar datos");
+				VistaIngreso ventanaFormularioIngreso = new VistaIngreso( ventana, getGestorDatos(), tituloPadre+" - Registrar datos");
 			}
 		});
 
@@ -75,7 +78,7 @@ public class VistaPrincipal {
 				// Oculta ventana principal
 				ventana.setVisible(false);
 				// llama ventana hijo, con listado de datos
-				VistaResumen ventanaResumen = new VistaResumen( ventana, getGestor(), tituloPadre+" - Visualizar informacion");
+				VistaGestion ventanaGestion = new VistaGestion( ventana, getGestorServicios(), tituloPadre+" - Gestion informacion");
 			}
 		});
 
@@ -97,8 +100,12 @@ public class VistaPrincipal {
 		ventana.add(panelMenu);
 	}
 
-	public GestorDatos getGestor(){
+	public GestorDatos getGestorDatos(){
 		return this.gestorDatos;
+	}
+
+	public GestorServicios getGestorServicios(){
+		return this.gestorServ;
 	}
 
 }
